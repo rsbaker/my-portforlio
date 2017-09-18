@@ -5,5 +5,6 @@ It uses AWS and ReatJS
 
 ## Technologies Used
 
+Brew
 Git and github
 SSH

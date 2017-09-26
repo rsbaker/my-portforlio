@@ -1,6 +1,10 @@
 import React from 'react';
-import { shadow } from 'enzyme';
+import { configure } from 'enzyme';
+import { shallow } from 'enzyme';
 import ExampleWork, { ExampleWorkBubble } from '../js/example-work';
+import Adapter from 'enzyme-adapter-react-15';
+
+configure({ adapter: new Adapter() });
 
 const myWork = [
   {
@@ -45,7 +49,7 @@ describe("ExampleWorkBubble component", () => {
   });
 
   it("Should have the image source set correctly", () => {
-    expect(images.node.props.src).toEqual(myWork[1].image.src);
+    expect(images.getElement().props.src).toEqual(myWork[1].image.src);
   });
 
 });

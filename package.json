@@ -20,7 +20,7 @@
   "homepage": "https://github.com/rsbaker/my-portforlio#readme",
   "dependencies": {
     "react": "^15.6.2",
-    "react.dom": "^1.0.1"
+    "react-dom": "^15.6.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

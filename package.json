@@ -1,0 +1,31 @@
+{
+  "name": "my-portforlio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsbaker/my-portforlio.git"
+  },
+  "author": "Robert Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsbaker/my-portforlio/issues"
+  },
+  "homepage": "https://github.com/rsbaker/my-portforlio#readme",
+  "dependencies": {
+    "react": "^15.6.2",
+    "react.dom": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
